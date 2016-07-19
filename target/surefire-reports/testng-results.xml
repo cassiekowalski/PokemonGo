@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="mySuite" duration-ms="11555" started-at="2016-07-19T15:11:02Z" finished-at="2016-07-19T15:11:14Z">
+    <groups>
+    </groups>
+    <test name="myTests" duration-ms="11555" started-at="2016-07-19T15:11:02Z" finished-at="2016-07-19T15:11:14Z">
+      <class name="pkmn.go.eggChartSearchTest">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:pkmn.go.eggChartSearchTest@6be7ed2d]" name="test" duration-ms="6321" started-at="2016-07-19T11:11:02Z" data-provider="myTest" finished-at="2016-07-19T11:11:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pokemon Go Egg Chart]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:pkmn.go.eggChartSearchTest@6be7ed2d]" name="test" duration-ms="5224" started-at="2016-07-19T11:11:09Z" data-provider="myTest" finished-at="2016-07-19T11:11:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pokemon Go Reddit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- pkmn.go.eggChartSearchTest -->
+    </test> <!-- myTests -->
+  </suite> <!-- mySuite -->
+</testng-results>

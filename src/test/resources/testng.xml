@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="mySuite" parallel="methods">
+
+    <test name="myTests">
+        <classes>
+            <class name="pkmn.go.eggChartSearchTest" />
+        </classes>
+    </test>
+
+</suite>
